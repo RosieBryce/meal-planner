@@ -1,0 +1,29 @@
+[
+  {
+    "category": "Dinner",
+    "items": [
+      "Free from pizza",
+      "Macaroni cheese",
+      "White Rabbit GF Aubergine Parmigiana Girasoli Pasta",
+      "Roast veg on GF ciabatta (use leftover roast veg)"
+    ]
+  },
+  {
+    "category": "Snacks & sides",
+    "items": [
+      "Mac & cheese bites",
+      "Battered onion rings",
+      "Cheese and onion croquettes",
+      "Garlic focaccia",
+      "Schar white rolls"
+    ]
+  },
+  {
+    "category": "Treats",
+    "items": [
+      "Carrot cake",
+      "Celebration chocolate cake",
+      "Caterpillar mini cakes"
+    ]
+  }
+]

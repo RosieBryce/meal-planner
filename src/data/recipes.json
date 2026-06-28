@@ -1,0 +1,4186 @@
+[
+  {
+    "id": 1,
+    "name": "Thai Yellow Curry Bowl",
+    "cuisine": "Thai",
+    "mealType": "dinner",
+    "protein": "Tofu",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "yellow-thai-paste",
+      "fresh-coriander"
+    ],
+    "closes": [
+      "yellow-thai-paste",
+      "fresh-coriander"
+    ],
+    "ingredients": [
+      {
+        "name": "firm tofu",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "shallots",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "pak choi",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "bell pepper",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh coriander",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "Thai style spice mix",
+        "shop": "ocado"
+      },
+      {
+        "name": "yellow Thai paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "steamed brown basmati rice pouch",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Yellow Thai Basa Curry",
+    "cuisine": "Thai",
+    "mealType": "dinner",
+    "protein": "Fish",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "yellow-thai-paste",
+      "baby-spinach"
+    ],
+    "closes": [
+      "yellow-thai-paste",
+      "baby-spinach"
+    ],
+    "ingredients": [
+      {
+        "name": "basa fillets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lime",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby spinach",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "riced cauliflower (frozen)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "yellow Thai paste",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Ginger & Peanut Sweet Potato Curry",
+    "cuisine": "Thai",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": true,
+    "source": "green-chef",
+    "opens": [
+      "red-thai-paste",
+      "sweet-potato",
+      "fresh-coriander"
+    ],
+    "closes": [
+      "red-thai-paste",
+      "sweet-potato",
+      "fresh-coriander"
+    ],
+    "ingredients": [
+      {
+        "name": "sweet potato",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "pak choi",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "red chilli",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "bell pepper",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh coriander",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "peanuts",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "ginger purée",
+        "shop": "ocado"
+      },
+      {
+        "name": "red Thai paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "brown basmati rice pouch",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Green Thai Sweet Potato Curry",
+    "cuisine": "Thai",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "green-thai-paste",
+      "sweet-potato",
+      "baby-spinach"
+    ],
+    "closes": [
+      "green-thai-paste",
+      "sweet-potato",
+      "baby-spinach"
+    ],
+    "ingredients": [
+      {
+        "name": "diced sweet potato",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "shallot",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby corn",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lime",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby spinach",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "green Thai paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "brown basmati rice pouch",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Super Green Thai Chickpea Curry",
+    "cuisine": "Thai",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "green-thai-paste",
+      "fresh-coriander",
+      "baby-spinach"
+    ],
+    "closes": [
+      "green-thai-paste",
+      "fresh-coriander",
+      "baby-spinach"
+    ],
+    "ingredients": [
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby corn",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "pea pods",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh coriander",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lime",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby spinach",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "ginger, garlic & lemongrass purée",
+        "shop": "ocado"
+      },
+      {
+        "name": "Thai green paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "basmati rice pouch",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Spicy Paneer Tikka Curry",
+    "cuisine": "Indian",
+    "mealType": "dinner",
+    "protein": "Paneer",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "tikka-paste",
+      "north-indian-spice",
+      "creme-fraiche",
+      "baby-spinach"
+    ],
+    "closes": [
+      "tikka-paste",
+      "creme-fraiche",
+      "baby-spinach"
+    ],
+    "ingredients": [
+      {
+        "name": "paneer",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "bell pepper",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby spinach",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "crème fraîche",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "flaked almonds",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "North Indian style spice mix",
+        "shop": "ocado"
+      },
+      {
+        "name": "tikka masala paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "basmati rice pouch",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Paneer Butter Masala",
+    "cuisine": "Indian",
+    "mealType": "dinner",
+    "protein": "Paneer",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "korma-paste",
+      "creme-fraiche",
+      "fresh-coriander"
+    ],
+    "closes": [
+      "korma-paste",
+      "north-indian-spice",
+      "creme-fraiche",
+      "fresh-coriander"
+    ],
+    "ingredients": [
+      {
+        "name": "paneer",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "green beans",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "bell pepper",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "crème fraîche",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh coriander",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "North Indian style spice mix",
+        "shop": "ocado"
+      },
+      {
+        "name": "korma paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "basmati rice pouch",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Tandoori Paneer Rice Bowl",
+    "cuisine": "Indian",
+    "mealType": "dinner",
+    "protein": "Paneer",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "tandoori-spice",
+      "hummus"
+    ],
+    "closes": [
+      "hummus"
+    ],
+    "ingredients": [
+      {
+        "name": "paneer",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "medium tomato",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby cucumber",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh mint",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "hummus",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "cashew nuts",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "tandoori masala mix",
+        "shop": "ocado"
+      },
+      {
+        "name": "steamed brown basmati rice pouch",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Ginger Paneer & Caramelised Onion Curry",
+    "cuisine": "Indian",
+    "mealType": "dinner",
+    "protein": "Paneer",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "rogan-josh-paste",
+      "creme-fraiche",
+      "baby-spinach"
+    ],
+    "closes": [
+      "rogan-josh-paste",
+      "creme-fraiche",
+      "baby-spinach"
+    ],
+    "ingredients": [
+      {
+        "name": "paneer",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "red chilli",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "crème fraîche",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby spinach",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "ginger purée",
+        "shop": "ocado"
+      },
+      {
+        "name": "Rogan Josh paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "North Indian style spice mix",
+        "shop": "ocado"
+      },
+      {
+        "name": "basmati rice pouch",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Aubergine & Spinach Curry",
+    "cuisine": "Indian",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "rogan-josh-paste",
+      "fresh-coriander",
+      "baby-spinach"
+    ],
+    "closes": [
+      "rogan-josh-paste",
+      "fresh-coriander",
+      "baby-spinach"
+    ],
+    "ingredients": [
+      {
+        "name": "aubergine",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh coriander",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "pre-cooked lentils",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby spinach",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "North Indian style spice mix",
+        "shop": "ocado"
+      },
+      {
+        "name": "curry paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "steamed brown basmati rice pouch",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "One Pan Smokey Chickpea Curry",
+    "cuisine": "Indian",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "smokey-paste",
+      "yoghurt",
+      "baby-spinach"
+    ],
+    "closes": [
+      "smokey-paste",
+      "yoghurt",
+      "baby-spinach"
+    ],
+    "ingredients": [
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "red chilli",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "natural yoghurt",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby spinach",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "smokey base paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "curry paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "steamed brown basmati rice pouch",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Creamy Tomato & Chickpea Curry",
+    "cuisine": "Indian",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "smokey-paste",
+      "yoghurt",
+      "fresh-coriander",
+      "baby-spinach"
+    ],
+    "closes": [
+      "smokey-paste",
+      "yoghurt",
+      "fresh-coriander",
+      "baby-spinach"
+    ],
+    "ingredients": [
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby plum tomatoes",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh coriander",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "natural yoghurt",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby spinach",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "curry paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "basmati rice pouch",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Masala Fish",
+    "cuisine": "Indian",
+    "mealType": "dinner",
+    "protein": "Fish",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "cod fillets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lemon",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "red chilli",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baking potatoes",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "frozen peas",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "feta",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh mint",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "gram flour",
+        "shop": "ocado"
+      },
+      {
+        "name": "rice flour",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "involved"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Dum Aloo",
+    "cuisine": "Indian",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [
+      "ginger-garlic-paste",
+      "yoghurt",
+      "fresh-coriander"
+    ],
+    "closes": [
+      "ginger-garlic-paste",
+      "yoghurt",
+      "fresh-coriander"
+    ],
+    "ingredients": [
+      {
+        "name": "baby potatoes",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "tomato",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "greek yoghurt",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh coriander",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "cashew nuts",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "ginger & garlic paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "gram flour",
+        "shop": "ocado"
+      },
+      {
+        "name": "nigella seeds",
+        "shop": "ocado"
+      },
+      {
+        "name": "cinnamon sticks",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "involved",
+      "comfort"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Palak Paneer",
+    "cuisine": "Indian",
+    "mealType": "dinner",
+    "protein": "Paneer",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "https://www.cookwithmanali.com/palak-paneer/",
+    "opens": [
+      "ginger-garlic-paste",
+      "double-cream",
+      "baby-spinach"
+    ],
+    "closes": [
+      "ginger-garlic-paste",
+      "double-cream",
+      "baby-spinach"
+    ],
+    "ingredients": [
+      {
+        "name": "paneer",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby spinach",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "tomato",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "green chilli",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "double cream (small)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "ginger purée",
+        "shop": "ocado"
+      },
+      {
+        "name": "fenugreek leaves (dried)",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "comfort"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Spicy Zhoug Sea Bream",
+    "cuisine": "Fish",
+    "mealType": "dinner",
+    "protein": "Fish",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "zhoug-paste",
+      "chermoula-spice",
+      "fresh-coriander"
+    ],
+    "closes": [
+      "zhoug-paste",
+      "fresh-coriander"
+    ],
+    "ingredients": [
+      {
+        "name": "sea bream fillets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "aubergine",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lemon",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "tenderstem broccoli",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh coriander",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "zhoug paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "chermoula spice mix",
+        "shop": "ocado"
+      },
+      {
+        "name": "basmati rice pouch",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Miso-Glazed Salmon",
+    "cuisine": "Fish",
+    "mealType": "dinner",
+    "protein": "Fish",
+    "glutenFree": true,
+    "glutenNote": "GF miso only — check label. Use tamari not soy sauce.",
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "miso-paste"
+    ],
+    "closes": [
+      "miso-paste"
+    ],
+    "ingredients": [
+      {
+        "name": "salmon fillets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "tenderstem broccoli",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "bell pepper",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "young pea pods",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "miso paste (GF)",
+        "shop": "ocado"
+      },
+      {
+        "name": "black sesame seeds",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Confit Garlic, Lemon & Rosemary Basa",
+    "cuisine": "Fish",
+    "mealType": "dinner",
+    "protein": "Fish",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "basa fillets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "potatoes (small bag)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh rosemary",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lemon",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "tenderstem broccoli",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "frozen peas",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "comfort"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Honey & Ginger Glazed Basa",
+    "cuisine": "Fish",
+    "mealType": "dinner",
+    "protein": "Fish",
+    "glutenFree": false,
+    "glutenNote": "Check ketjap manis label — some contain wheat. Swap for tamari + splash of molasses if needed.",
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "ketjap-manis"
+    ],
+    "closes": [
+      "ketjap-manis"
+    ],
+    "ingredients": [
+      {
+        "name": "basa fillets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "green beans",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "cavolo nero",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "cashew nuts",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "ginger purée",
+        "shop": "ocado"
+      },
+      {
+        "name": "ketjap manis ⚠️ check label",
+        "shop": "ocado"
+      },
+      {
+        "name": "black rice",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Salmon Gremolata Butter",
+    "cuisine": "Fish",
+    "mealType": "dinner",
+    "protein": "Fish",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "salmon fillets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "tenderstem broccoli",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh parsley",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lemon",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "black olives (small pot)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "shallot",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby plum tomatoes",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "unsalted butter",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Sea Bream in Chive & Garlic Butter",
+    "cuisine": "Fish",
+    "mealType": "dinner",
+    "protein": "Fish",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "creme-fraiche"
+    ],
+    "closes": [
+      "creme-fraiche"
+    ],
+    "ingredients": [
+      {
+        "name": "sea bream fillets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "asparagus",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "cauliflower florets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "chives",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "crème fraîche",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "Italian hard cheese (grated)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "samphire",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Italian Sea Bass Tray Bake",
+    "cuisine": "Fish",
+    "mealType": "dinner",
+    "protein": "Fish",
+    "glutenFree": false,
+    "glutenNote": "Check pesto and sun-dried tomato paste labels — both can contain gluten.",
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "sun-dried-tomato-paste"
+    ],
+    "closes": [
+      "sun-dried-tomato-paste"
+    ],
+    "ingredients": [
+      {
+        "name": "sea bass fillets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "salad potatoes",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "asparagus",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby plum tomatoes",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "chives",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "black olives (small pot)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "Italian hard cheese (grated)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "GF pesto ⚠️ check label",
+        "shop": "ocado"
+      },
+      {
+        "name": "sun-dried tomato paste ⚠️ check label",
+        "shop": "ocado"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": 23,
+    "name": "Salmon & Herbed Smashed Potatoes",
+    "cuisine": "Fish",
+    "mealType": "dinner",
+    "protein": "Fish",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "creme-fraiche"
+    ],
+    "closes": [
+      "creme-fraiche"
+    ],
+    "ingredients": [
+      {
+        "name": "salmon fillets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "salad potatoes (small bag)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "kale (small bag)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "leek",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "frozen peas",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "crème fraîche",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "comfort"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Lemon Sea Bream with Pesto Drizzle",
+    "cuisine": "Fish",
+    "mealType": "dinner",
+    "protein": "Fish",
+    "glutenFree": false,
+    "glutenNote": "Check pesto label — not all are GF.",
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "sea bream fillets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "diced butternut squash (frozen ok)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "courgette",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "red onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lemon",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "GF pesto ⚠️ check label",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Baked Salmon & Leek Parcel",
+    "cuisine": "Fish",
+    "mealType": "dinner",
+    "protein": "Fish",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [
+      "baby-spinach"
+    ],
+    "closes": [
+      "baby-spinach"
+    ],
+    "ingredients": [
+      {
+        "name": "salmon fillets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "leeks (x2)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "mascarpone",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh dill",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lemon",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby spinach",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "involved"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "GF Salmon Pasta",
+    "cuisine": "Fish",
+    "mealType": "dinner",
+    "protein": "Fish",
+    "glutenFree": true,
+    "glutenNote": "Use GF pasta — verify brand.",
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [
+      "baby-spinach"
+    ],
+    "closes": [
+      "baby-spinach"
+    ],
+    "ingredients": [
+      {
+        "name": "smoked salmon",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "GF pasta",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "green beans",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby spinach",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "spring onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "soft cheese",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lemon",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "Italian hard cheese (grated)",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "GF Fish & Chips",
+    "cuisine": "Fish",
+    "mealType": "dinner",
+    "protein": "Fish",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "cod fillets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "potatoes (x2)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "egg",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "frozen peas",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "gram flour",
+        "shop": "ocado"
+      },
+      {
+        "name": "ground almonds",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "comfort"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Honey & Orange Sea Bass with Lentils",
+    "cuisine": "Fish",
+    "mealType": "dinner",
+    "protein": "Fish",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "sea bass fillets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "orange",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "ready-to-eat lentils",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "watercress",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh dill",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Mexican Black Bean Bowl",
+    "cuisine": "Mexican",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "mexican-spice"
+    ],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "bell pepper",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "avocado",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "cheese (grated)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh tomato sauce (small)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "Mexican style spice mix",
+        "shop": "ocado"
+      },
+      {
+        "name": "steamed brown basmati rice pouch",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Kidney Bean Jacket Potato",
+    "cuisine": "Mexican",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [],
+    "closes": [
+      "mexican-spice"
+    ],
+    "ingredients": [
+      {
+        "name": "baking potatoes (x2)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "carrot",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "spring onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "cheese (grated)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "tomato sauce (small)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "smashed avocado",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "Mexican style spice mix",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "comfort"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Cajun Halloumi & Black Bean Burrito Bowl",
+    "cuisine": "Mexican",
+    "mealType": "dinner",
+    "protein": "Halloumi",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "cajun-spice"
+    ],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "halloumi",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "bell pepper",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lime",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "sour cream",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "smashed avocado",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "Cajun style spice mix",
+        "shop": "ocado"
+      },
+      {
+        "name": "basmati rice pouch",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Sweet Potato Jackets with Guacamole & Kidney Beans",
+    "cuisine": "Mexican",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [
+      "sweet-potato",
+      "fresh-coriander"
+    ],
+    "closes": [
+      "sweet-potato",
+      "fresh-coriander"
+    ],
+    "ingredients": [
+      {
+        "name": "sweet potatoes (x2)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "avocado",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lime",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "red chilli",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "tomatoes (x2)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh coriander",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "red onion",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "involved",
+      "comfort"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Mexican-Style Stuffed Peppers",
+    "cuisine": "Mexican",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [
+      "fresh-coriander"
+    ],
+    "closes": [
+      "fresh-coriander"
+    ],
+    "ingredients": [
+      {
+        "name": "bell pepper",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lime & coriander rice pouch",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "Mexican chilli cheese slices",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "guacamole",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Spicy Harissa Aubergine Pie",
+    "cuisine": "Mediterranean",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [
+      "rose-harissa-paste",
+      "sweet-potato"
+    ],
+    "closes": [
+      "rose-harissa-paste",
+      "sweet-potato"
+    ],
+    "ingredients": [
+      {
+        "name": "aubergine",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "red onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "cherry tomatoes (small bag)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "pre-cooked lentils",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "black olives (small bag)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "sweet potatoes (x2 small)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "feta",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "rose harissa paste",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "involved"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Katsu Curry",
+    "cuisine": "Asian",
+    "mealType": "dinner",
+    "protein": "Quorn",
+    "glutenFree": true,
+    "glutenNote": "Use GF breadcrumbs — verify brand.",
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "Quorn fillets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "carrot",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lime",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh mint",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "egg",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "rice pouch",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "ginger purée",
+        "shop": "ocado"
+      },
+      {
+        "name": "GF breadcrumbs",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "involved"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Quinoa Salad with Grilled Halloumi",
+    "cuisine": "Mediterranean",
+    "mealType": "dinner",
+    "protein": "Halloumi",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [
+      "roasted-peppers-jar"
+    ],
+    "closes": [
+      "roasted-peppers-jar"
+    ],
+    "ingredients": [
+      {
+        "name": "halloumi",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "red onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "quinoa",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lemon",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "roasted peppers (jar)",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Malaysian Fish Curry (Kari Ikan)",
+    "cuisine": "Malaysian",
+    "mealType": "dinner",
+    "protein": "Fish",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [
+      "tamarind-paste",
+      "fresh-coriander"
+    ],
+    "closes": [
+      "tamarind-paste",
+      "fresh-coriander"
+    ],
+    "ingredients": [
+      {
+        "name": "white fish fillets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "shallot",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "red chilli",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "aubergine",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "okra (frozen)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh coriander",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "ginger purée",
+        "shop": "ocado"
+      },
+      {
+        "name": "tamarind paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "lemongrass stalks",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "involved"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Aubergine Pizzas",
+    "cuisine": "Italian",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "custom",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "aubergine",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "mozzarella",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "cheese (grated)",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Stir Fry with Peanut Sauce",
+    "cuisine": "Asian",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "Use tamari — already a staple.",
+    "favourite": false,
+    "source": "custom",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "stir fry veg pack",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "peanut butter",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lemon or lime",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "ginger purée",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Roast Veg with Halloumi",
+    "cuisine": "Mediterranean",
+    "mealType": "dinner",
+    "protein": "Halloumi",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "custom",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "halloumi",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "pre-cut roast veg pack",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "cashew nuts",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Speciality Mushroom Risotto",
+    "cuisine": "Italian",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "wild-mushroom-paste"
+    ],
+    "closes": [
+      "wild-mushroom-paste"
+    ],
+    "ingredients": [
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "sliced mushrooms",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "speciality mushroom mix",
+        "shop": "ocado"
+      },
+      {
+        "name": "Italian hard cheese (grated)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "wild rocket",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "wild mushroom paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "truffle zest",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "involved",
+      "comfort"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Chermoula Chickpea & Turmeric Rice Bowl",
+    "cuisine": "Mediterranean",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "harissa-paste",
+      "cashew-butter",
+      "zhoug-paste",
+      "hummus"
+    ],
+    "closes": [
+      "harissa-paste",
+      "cashew-butter",
+      "chermoula-spice",
+      "zhoug-paste",
+      "hummus"
+    ],
+    "ingredients": [
+      {
+        "name": "courgette",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby plum tomatoes",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lemon",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "pumpkin seeds",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "hummus",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "chermoula spice mix",
+        "shop": "ocado"
+      },
+      {
+        "name": "harissa paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "cashew butter",
+        "shop": "ocado"
+      },
+      {
+        "name": "basmati rice pouch",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Leek, Mushroom & Blue Cheese Risotto",
+    "cuisine": "Italian",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "wild-mushroom-paste"
+    ],
+    "closes": [
+      "wild-mushroom-paste"
+    ],
+    "ingredients": [
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "leek",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "sliced mushrooms",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "Italian hard cheese (grated)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "wild rocket",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "crumbled blue cheese",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "wild mushroom paste",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "involved",
+      "comfort"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Oven-Baked Pesto Risotto",
+    "cuisine": "Italian",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": false,
+    "glutenNote": "Check pesto label — not all are GF.",
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby plum tomatoes",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "courgette",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "cheese (grated)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "wild rocket",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "pumpkin seeds",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "GF pesto ⚠️ check label",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "involved",
+      "comfort"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Mediterranean Risotto",
+    "cuisine": "Italian",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": false,
+    "glutenNote": "Check pesto label — not all are GF.",
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby plum tomatoes",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "bell pepper",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "courgette",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "cheese (grated)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "GF pesto ⚠️ check label",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "involved",
+      "comfort"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "West African Halloumi in Spiced Tomato Sauce",
+    "cuisine": "Mediterranean",
+    "mealType": "dinner",
+    "protein": "Halloumi",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "halloumi",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby plum tomatoes",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "bell pepper",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "corn flour (cornstarch)",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Gochujang Glazed Paneer",
+    "cuisine": "Asian",
+    "mealType": "dinner",
+    "protein": "Paneer",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "gochujang-paste",
+      "sambal-paste"
+    ],
+    "closes": [
+      "gochujang-paste",
+      "sambal-paste"
+    ],
+    "ingredients": [
+      {
+        "name": "paneer",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lime",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "red onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "young pea pods",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "salted peanuts",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "maple syrup",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "gochujang paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "sambal paste",
+        "shop": "ocado"
+      },
+      {
+        "name": "jasmine rice pouch",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Cheddar & Wholegrain Mustard Gnocchi Bake",
+    "cuisine": "Veggie",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "GF gnocchi only — check label every time.",
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "creme-fraiche"
+    ],
+    "closes": [
+      "creme-fraiche"
+    ],
+    "ingredients": [
+      {
+        "name": "GF gnocchi ⚠️ check label",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "broccoli florets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "mature cheddar",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "leek",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "sliced mushrooms",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "crème fraîche",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "involved",
+      "comfort"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Mozzarella Topped Pesto Gnocchi",
+    "cuisine": "Italian",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": false,
+    "glutenNote": "GF gnocchi only. Check pesto label — not all are GF.",
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "sun-dried-tomato-paste",
+      "creme-fraiche"
+    ],
+    "closes": [
+      "sun-dried-tomato-paste",
+      "creme-fraiche"
+    ],
+    "ingredients": [
+      {
+        "name": "GF gnocchi ⚠️ check label",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "red onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby plum tomatoes",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "mozzarella",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "wild rocket",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "crème fraîche",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "pumpkin seeds",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "GF pesto ⚠️ check label",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Aubergine Parmigiana Traybake",
+    "cuisine": "Italian",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "tomato-sauce-jar"
+    ],
+    "closes": [
+      "tomato-sauce-jar"
+    ],
+    "ingredients": [
+      {
+        "name": "aubergine",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "potatoes",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "mozzarella",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby plum tomatoes",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "marinara sauce (jar)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "Italian hard cheese (grated)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "wild rocket",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "involved"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Bolognaise",
+    "cuisine": "Italian",
+    "mealType": "dinner",
+    "protein": "Quorn",
+    "glutenFree": true,
+    "glutenNote": "Use GF spaghetti — verify brand.",
+    "favourite": false,
+    "source": "custom",
+    "opens": [
+      "tomato-sauce-jar"
+    ],
+    "closes": [
+      "tomato-sauce-jar"
+    ],
+    "ingredients": [
+      {
+        "name": "Quorn mince",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "GF spaghetti",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "carrot",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "courgette",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "bell pepper",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "pasta sauce (jar)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "cheddar (grated)",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "involved",
+      "comfort"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Pesto Pasta",
+    "cuisine": "Italian",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": false,
+    "glutenNote": "GF pasta. Check pesto label.",
+    "favourite": false,
+    "source": "custom",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "GF pasta",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "mangetout",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "frozen peas",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "Italian hard cheese (grated)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "pine nuts",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "GF pesto ⚠️ check label",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Mushroom Pasta",
+    "cuisine": "Italian",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "GF tagliatelle — verify brand.",
+    "favourite": false,
+    "source": "custom",
+    "opens": [
+      "double-cream"
+    ],
+    "closes": [
+      "double-cream"
+    ],
+    "ingredients": [
+      {
+        "name": "GF tagliatelle",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "mushrooms",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "double cream (small)",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Baked Eggs with Potatoes, Mushrooms & Cheese",
+    "cuisine": "Veggie",
+    "mealType": "dinner",
+    "protein": "Egg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "baking potato",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "mushrooms (small bag)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh thyme",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "cheese (grated)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "eggs (x2)",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "involved",
+      "comfort"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Oven-Baked Egg & Chips",
+    "cuisine": "Veggie",
+    "mealType": "dinner",
+    "protein": "Egg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "baking potato",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "tomato",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "eggs (x2)",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "involved",
+      "comfort"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Cheese, Cumin & Onion Seed Cornbread Muffins",
+    "cuisine": "Veggie",
+    "mealType": "bake",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "Verify baking powder is GF.",
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "eggs",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "parmesan or similar hard cheese",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "polenta flour / cornmeal",
+        "shop": "ocado"
+      },
+      {
+        "name": "onion seeds",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "involved"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Strawberry, Almond & Polenta Skillet Cake",
+    "cuisine": "Veggie",
+    "mealType": "bake",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "Naturally GF.",
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [
+      "vanilla-bean-paste"
+    ],
+    "closes": [
+      "vanilla-bean-paste"
+    ],
+    "ingredients": [
+      {
+        "name": "unsalted butter",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "eggs",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "strawberries",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "ice cream",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "ground almonds",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "polenta",
+        "shop": "ocado"
+      },
+      {
+        "name": "vanilla bean paste",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "involved"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Kanelbullar (Cinnamon Balls)",
+    "cuisine": "Veggie",
+    "mealType": "bake",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "Naturally GF.",
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [
+      "vanilla-bean-paste"
+    ],
+    "closes": [
+      "vanilla-bean-paste"
+    ],
+    "ingredients": [
+      {
+        "name": "egg whites",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "ground almonds",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "icing sugar",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "vanilla bean paste",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "involved"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Dark Chocolate Orange Creams",
+    "cuisine": "Veggie",
+    "mealType": "dessert",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "Check dark chocolate label.",
+    "favourite": false,
+    "source": "bbc-good-food",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "dark chocolate",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "natural yoghurt",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "orange",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh mint",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Vegetarian Enchiladas",
+    "cuisine": "Mexican",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "GF tortillas only.",
+    "favourite": false,
+    "source": "https://www.bbcgoodfood.com/recipes/bean-enchiladas",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "carrot",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "chopped tomatoes (can)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "black beans (can)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "GF tortillas ⚠️ check label",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "soured cream",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "cheese (grated)",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "involved",
+      "comfort"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Spinach, Sweet Potato & Feta Sausage Rolls",
+    "cuisine": "Veggie",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "Jus-Rol GF pastry roll only.",
+    "favourite": false,
+    "source": "https://www.jusrol.co.uk/pastry-recipes/spinach-sweet-potato-feta-sausage-rolls/",
+    "opens": [
+      "baby-spinach"
+    ],
+    "closes": [
+      "baby-spinach"
+    ],
+    "ingredients": [
+      {
+        "name": "GF pastry roll ⚠️ Jus-Rol GF",
+        "shop": "ocado"
+      },
+      {
+        "name": "sweet potato",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "red onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "small chilli",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "chickpeas (can)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "feta (half block)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby spinach",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "sesame seeds",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "involved",
+      "comfort"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Caramelised Onion & Feta Galette",
+    "cuisine": "Mediterranean",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "Jus-Rol GF pastry roll only.",
+    "favourite": false,
+    "source": "https://www.jusrol.co.uk/pastry-recipes/gluten-free-caramelised-onion-feta-galette/",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "GF pastry roll ⚠️ Jus-Rol GF",
+        "shop": "ocado"
+      },
+      {
+        "name": "caramelised onion chutney",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "feta (half block)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "small red onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "rocket",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "balsamic glaze",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Raspberry & Lemon Mess Tart",
+    "cuisine": "Veggie",
+    "mealType": "dessert",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "https://www.jusrol.co.uk/pastry-recipes/raspberry-and-lemon-mess-tart/",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "GF shortcrust pastry block",
+        "shop": "ocado"
+      },
+      {
+        "name": "whipping cream (250ml)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lemon curd",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "raspberries",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "meringues (x3)",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Mini Bacon & Egg Pies",
+    "cuisine": "Veggie",
+    "mealType": "dinner",
+    "protein": "Egg",
+    "glutenFree": true,
+    "glutenNote": "Check mustard label for GF.",
+    "favourite": false,
+    "source": "https://www.jusrol.co.uk/pastry-recipes/mini-bacon-egg-pies/",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "GF pastry roll ⚠️ Jus-Rol GF",
+        "shop": "ocado"
+      },
+      {
+        "name": "vegetarian GF bacon alternative",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "spring onions (x3)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "mustard ⚠️ check label",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "eggs (x6)",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Leek, Brie, Mushroom & Olive Puff Tart",
+    "cuisine": "Mediterranean",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "Jus-Rol GF pastry roll only.",
+    "favourite": false,
+    "source": "https://www.jusrol.co.uk/pastry-recipes/leek-brie-mushroom-olive-puff-tart/",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "GF pastry roll ⚠️ Jus-Rol GF",
+        "shop": "ocado"
+      },
+      {
+        "name": "leeks (100g)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "small green pepper",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "black olives",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "mushrooms (50g)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "brie",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Red Onion, Walnut & Blue Cheese Tart",
+    "cuisine": "Mediterranean",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "Jus-Rol GF pastry roll only.",
+    "favourite": false,
+    "source": "https://www.jusrol.co.uk/pastry-recipes/red-onion-walnut-blue-cheese-tart/",
+    "opens": [
+      "red-onion-marmalade"
+    ],
+    "closes": [
+      "red-onion-marmalade"
+    ],
+    "ingredients": [
+      {
+        "name": "GF pastry roll ⚠️ Jus-Rol GF",
+        "shop": "ocado"
+      },
+      {
+        "name": "red onion marmalade",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "walnuts",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "blue cheese",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh thyme",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Spring Veggie Pizza Tart",
+    "cuisine": "Mediterranean",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "Jus-Rol GF pastry roll only.",
+    "favourite": false,
+    "source": "https://www.jusrol.co.uk/pastry-recipes/spring-veggie-pizza/",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "GF pastry roll ⚠️ Jus-Rol GF",
+        "shop": "ocado"
+      },
+      {
+        "name": "ricotta",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "feta",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lemon",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "asparagus",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "courgette",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "wild garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "Italian hard cheese (grated)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "pumpkin seeds",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Spring Salad Tart",
+    "cuisine": "Mediterranean",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "Jus-Rol GF pastry roll only.",
+    "favourite": false,
+    "source": "https://www.jusrol.co.uk/pastry-recipes/spring-salad-pizza/",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "GF pastry roll ⚠️ Jus-Rol GF",
+        "shop": "ocado"
+      },
+      {
+        "name": "pear",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "red onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "brie",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "walnuts",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "honey",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Leek, Brie & Potato Tart",
+    "cuisine": "Mediterranean",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "Jus-Rol GF pastry roll only.",
+    "favourite": false,
+    "source": "https://www.jusrol.co.uk/pastry-recipes/leek-brie-and-potato-tart/",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "GF pastry roll ⚠️ Jus-Rol GF",
+        "shop": "ocado"
+      },
+      {
+        "name": "leeks (x2)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "potatoes (250g)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "brie",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh rosemary",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Three Cheese, Caramelised Onion & Potato Pie",
+    "cuisine": "Veggie",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "https://www.jusrol.co.uk/pastry-recipes/three-cheese-caramelised-onion-potato-pie/",
+    "opens": [
+      "double-cream"
+    ],
+    "closes": [
+      "double-cream"
+    ],
+    "ingredients": [
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "potatoes",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "crème fraîche",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "double cream",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "mature cheddar",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "stilton",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "Gruyère",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "Italian hard cheese (grated)",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "involved",
+      "comfort"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Grilled Courgette, Bean & Cheese Quesadilla",
+    "cuisine": "Mexican",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "GF tortilla wraps only.",
+    "favourite": false,
+    "source": "https://www.bbcgoodfood.com/recipes/grilled-courgette-bean-cheese-quesadilla",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "pinto beans (can)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "courgette",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "green chilli",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "GF tortilla wraps ⚠️ check label",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "cheese (grated)",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Refried Bean Quesadillas",
+    "cuisine": "Mexican",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "GF tortilla wraps only.",
+    "favourite": false,
+    "source": "https://www.bbcgoodfood.com/recipes/refried-bean-quesadillas",
+    "opens": [
+      "fresh-coriander"
+    ],
+    "closes": [
+      "fresh-coriander"
+    ],
+    "ingredients": [
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "pinto beans (can)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "GF tortilla wraps ⚠️ check label",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh coriander",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "tomato salsa (jar)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "soured cream",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Veggie Fajita Nachos",
+    "cuisine": "Mexican",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "https://groceries.morrisons.com/recipes/veggie-fajita-loaded-nachos/3RtyjdxbySA9qrS5GhpNRP",
+    "opens": [
+      "fresh-coriander"
+    ],
+    "closes": [
+      "fresh-coriander"
+    ],
+    "ingredients": [
+      {
+        "name": "red onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "red pepper",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "yellow pepper",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lemon",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "black beans (can)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "GF tortilla chips (bag)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "salsa (tub)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "avocado",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "soured cream",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh coriander",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Mexican Bean Burgers",
+    "cuisine": "Mexican",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "Genius GF rolls — check label.",
+    "favourite": false,
+    "source": "https://groceries.morrisons.com/recipes/mexican-bean-burgers/50447",
+    "opens": [
+      "fresh-coriander"
+    ],
+    "closes": [
+      "fresh-coriander"
+    ],
+    "ingredients": [
+      {
+        "name": "Genius GF bread rolls",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "kidney beans (can)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "egg",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "tomatoes (x2)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "avocado",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "red onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "soured cream",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "spring onions",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh coriander",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "involved"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Spicy Mexican Potato Wedges",
+    "cuisine": "Mexican",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "https://groceries.morrisons.com/recipes/spicy-mexican-potato-wedges/33867",
+    "opens": [
+      "fresh-coriander"
+    ],
+    "closes": [
+      "fresh-coriander"
+    ],
+    "ingredients": [
+      {
+        "name": "potatoes",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "refried beans (can)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "soured cream",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh coriander",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "involved",
+      "comfort"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Gluten-free Lemon Drizzle Cake",
+    "cuisine": "Veggie",
+    "mealType": "bake",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "Naturally GF — mashed potato base.",
+    "favourite": false,
+    "source": "https://groceries.morrisons.com/recipes/gluten-free-lemon-drizzle-cake/94728",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "mashed potato",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "eggs",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "ground almonds",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lemons (x4)",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "involved"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Broccoli Mac & Cheese",
+    "cuisine": "Italian",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": false,
+    "glutenNote": "GF macaroni only. Use GF breadcrumbs or omit.",
+    "favourite": false,
+    "source": "https://realfood.tesco.com/recipes/broccoli-mac-and-cheese.html",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "GF macaroni",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "broccoli florets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "mozzarella",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "GF breadcrumbs ⚠️ check label",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "involved",
+      "comfort"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Katsu Curry with Quorn Pieces",
+    "cuisine": "Asian",
+    "mealType": "dinner",
+    "protein": "Quorn",
+    "glutenFree": true,
+    "glutenNote": "Use tamari not soy sauce.",
+    "favourite": false,
+    "source": "https://groceries.morrisons.com/recipes/katsu-curry-with-quorn-pieces/82306",
+    "opens": [
+      "fresh-coriander"
+    ],
+    "closes": [
+      "fresh-coriander"
+    ],
+    "ingredients": [
+      {
+        "name": "Quorn pieces",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "carrots (x2)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lime",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh coriander",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "honey",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "coconut milk (can)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "vegetable stock",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "ginger purée",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "involved",
+      "comfort"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Pesto Salmon Traybake",
+    "cuisine": "Mediterranean",
+    "mealType": "dinner",
+    "protein": "Fish",
+    "glutenFree": false,
+    "glutenNote": "Check pesto label — not all are GF.",
+    "favourite": false,
+    "source": "https://groceries.morrisons.com/recipes/pesto-salmon-traybake/3ijmb3eqhsDitbiuu0wPdq",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "salmon fillets",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "GF pesto ⚠️ check label",
+        "shop": "ocado"
+      },
+      {
+        "name": "baby plum tomatoes",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baking potatoes (x2)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "green beans",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "rocket",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lemon",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "White Chocolate Cheesecake",
+    "cuisine": "Veggie",
+    "mealType": "dessert",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "GF digestive biscuits — check label.",
+    "favourite": false,
+    "source": "https://groceries.morrisons.com/recipes/white-chocolate-cheesecake/43528",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "GF digestive biscuits ⚠️ check label",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "dark chocolate (100g)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "white chocolate (500g)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "soft cheese (720g)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "raspberries",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "butter",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "icing sugar",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "involved"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Cowboy Breakfast Bowl",
+    "cuisine": "Veggie",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "https://groceries.morrisons.com/recipes/cowboy-breakfast-bowl/89051",
+    "opens": [
+      "baby-spinach"
+    ],
+    "closes": [
+      "baby-spinach"
+    ],
+    "ingredients": [
+      {
+        "name": "GF vegetarian sausages",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baby spinach",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "baking potatoes (x2)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "spring onions",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "cheese (grated)",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Pumpkin Seed Flapjack",
+    "cuisine": "Veggie",
+    "mealType": "bake",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "GF oats only — check label.",
+    "favourite": false,
+    "source": "https://groceries.morrisons.com/recipes/pumpkin-seed-flapjack/18xgOf75F2kIwtRId2O4Ed",
+    "opens": [],
+    "closes": [],
+    "ingredients": [
+      {
+        "name": "GF oats ⚠️ check label",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "butter",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "golden syrup",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "sugar",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "pumpkin seeds",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "involved"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Sticky Ginger-Lemongrass Mushroom Rice Bowl",
+    "cuisine": "Asian",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": "Check ketjap manis label for GF.",
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "ketjap-manis",
+      "fresh-coriander"
+    ],
+    "closes": [
+      "ketjap-manis",
+      "fresh-coriander"
+    ],
+    "ingredients": [
+      {
+        "name": "aubergine",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "pak choi",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "fresh coriander",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "lime",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "peanuts",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "sushi rice pouch",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "speciality mushroom mix",
+        "shop": "ocado"
+      },
+      {
+        "name": "Indonesian style spice mix",
+        "shop": "ocado"
+      },
+      {
+        "name": "ginger, garlic & lemongrass purée",
+        "shop": "ocado"
+      },
+      {
+        "name": "ketjap manis ⚠️ check label",
+        "shop": "ocado"
+      }
+    ],
+    "tags": [
+      "quick"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Coconut Red Lentil Dahl",
+    "cuisine": "Indian",
+    "mealType": "dinner",
+    "protein": "Veg",
+    "glutenFree": true,
+    "glutenNote": null,
+    "favourite": false,
+    "source": "green-chef",
+    "opens": [
+      "mango-chutney"
+    ],
+    "closes": [
+      "mango-chutney"
+    ],
+    "ingredients": [
+      {
+        "name": "green pepper",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "chilli",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "onion",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "garlic",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "red lentils",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "peas (frozen)",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "brown basmati rice pouch",
+        "shop": "sainsburys"
+      },
+      {
+        "name": "ginger purée",
+        "shop": "ocado"
+      },
+      {
+        "name": "mango chutney",
+        "shop": "sainsburys"
+      }
+    ],
+    "tags": [
+      "quick",
+      "comfort"
+    ]
+  }
+]
