@@ -9,10 +9,6 @@ function shuffle(arr) {
   return a
 }
 
-/**
- * Returns `count` random dinner recipes, excluding recentIds.
- * Favourites get a slight 1.5x boost (1 extra copy in the bag).
- */
 export function getRandomCandidates(recipesData, excludeIds = [], count = 4) {
   const pool = recipesData.filter(
     r => r.mealType === 'dinner' && !excludeIds.includes(r.id)
@@ -20,10 +16,9 @@ export function getRandomCandidates(recipesData, excludeIds = [], count = 4) {
   if (pool.length === 0) return []
   if (pool.length <= count) return shuffle(pool)
 
-  // 1.5x weight: every other favourite draw gets an extra entry
+  // 1.5x weight for favourites
   const bag = pool.flatMap(r => (r.favourite ? [r, r] : [r]))
   const shuffled = shuffle(bag)
-
   const seen = new Set()
   const result = []
   for (const r of shuffled) {
@@ -36,191 +31,35 @@ export function getRandomCandidates(recipesData, excludeIds = [], count = 4) {
   return result
 }
 
-// Points per chaining key — scored by how quickly the ingredient goes off
-// and how strongly we want to force a pairing. Spices = 0 (last forever).
-const CHAIN_SCORES = {
-  'creme-fraiche':        10,
-  'sweet-potato':         10,
-  'hummus':               10,
-  'zhoug-paste':           8,
-  'ketjap-manis':          8,
-  'rose-harissa-paste':    8,
-  'baby-spinach':          6,
-  'rogan-josh-paste':      6,
-  'ginger-garlic-paste':   6,
-  'vanilla-bean-paste':    6,
-  'chermoula-spice':       6,
-  'miso-paste':            6,
-  'red-thai-paste':        6,
-  'cashew-butter':         6,
-  'gochujang-paste':       6,
-  'sambal-paste':          6,
-  'yellow-thai-paste':     7,
-  'green-thai-paste':      7,
-  'wild-mushroom-paste':   7,
-  'tikka-paste':           7,
-  'roasted-peppers-jar':   7,
-  'tamarind-paste':        7,
-  'harissa-paste':         7,
-  'red-onion-marmalade':   7,
-  'mango-chutney':         7,
-  'double-cream':          5,
-  'smokey-paste':          5,
-  'korma-paste':           5,
-  'fresh-coriander':       4,
-  'yoghurt':               4,
-  'tomato-sauce-jar':      4,
-  'sun-dried-tomato-paste': 3,
-  'north-indian-spice':    0,
-  'mexican-spice':         0,
-  'tandoori-spice':        0,
-  'cajun-spice':           0,
-}
-
-/**
- * Scores a recipe's relatedness to a reference recipe.
- * Each shared chaining key contributes its own point value.
- * Keys not in CHAIN_SCORES fall back to 5.
- */
-function jarScore(recipe, reference) {
-  const referenceJars = new Set([...reference.opens, ...reference.closes])
-  const candidateJars = new Set([...recipe.opens, ...recipe.closes])
-  let score = 0
-  for (const j of candidateJars) {
-    if (referenceJars.has(j)) score += (CHAIN_SCORES[j] ?? 5)
-  }
-  if (recipe.cuisine === reference.cuisine) score += 2
-  if (recipe.favourite) score += 1
-  return score
-}
-
-/**
- * Returns top `count` related recipes (by jar/paste chaining) to a reference recipe.
- */
 export function getRelatedCandidates(reference, recipesData, excludeIds = [], count = 2) {
   const pool = recipesData.filter(
-    r => r.mealType === 'dinner'
-      && r.id !== reference.id
-      && !excludeIds.includes(r.id)
+    r => r.mealType === 'dinner' && r.id !== reference.id && !excludeIds.includes(r.id)
   )
-
-  const scored = shuffle(pool)
-    .map(r => ({ recipe: r, score: jarScore(r, reference) }))
-    .sort((a, b) => b.score - a.score || (a.recipe.favourite === b.recipe.favourite ? 0 : a.recipe.favourite ? -1 : 1))
-
-  return scored.slice(0, count).map(s => s.recipe)
+  const same = shuffle(pool.filter(r => r.cuisine === reference.cuisine))
+  const rest = shuffle(pool.filter(r => r.cuisine !== reference.cuisine))
+  return [...same, ...rest].slice(0, count)
 }
 
-/**
- * Returns top `count` unrelated recipes (minimal jar/paste overlap).
- */
 export function getUnrelatedCandidates(reference, recipesData, excludeIds = [], count = 2) {
   const pool = recipesData.filter(
-    r => r.mealType === 'dinner'
-      && r.id !== reference.id
-      && !excludeIds.includes(r.id)
+    r => r.mealType === 'dinner' && r.id !== reference.id && !excludeIds.includes(r.id)
   )
-
-  // Shuffle first so equal-score ties are random, not alphabetical
-  const scored = shuffle(pool)
-    .map(r => ({ recipe: r, score: jarScore(r, reference) }))
-    .sort((a, b) => {
-      if (a.score !== b.score) return a.score - b.score
-      if (a.recipe.favourite !== b.recipe.favourite) return a.recipe.favourite ? -1 : 1
-      return 0
-    })
-
-  return scored.slice(0, count).map(s => s.recipe)
+  const different = shuffle(pool.filter(r => r.cuisine !== reference.cuisine))
+  const rest = shuffle(pool.filter(r => r.cuisine === reference.cuisine))
+  return [...different, ...rest].slice(0, count)
 }
 
-/**
- * App-assigns the third recipe for a week.
- * Maximises closure of jars opened by recipe1 + recipe2.
- * Falls back to a favourite or random dinner if no jar-closer found.
- */
 export function assignThirdRecipe(recipe1, recipe2, recipesData, excludeIds = []) {
-  const openedSet = new Set([...recipe1.opens, ...recipe2.opens])
-  const trulyClosed = new Set()
-  for (const r of [recipe1, recipe2]) {
-    for (const j of r.closes) {
-      if (!r.opens.includes(j)) trulyClosed.add(j)
-    }
-  }
-  const netOpen = [...openedSet].filter(j => !trulyClosed.has(j))
-
   const pool = recipesData.filter(
     r => r.mealType === 'dinner'
       && r.id !== recipe1.id
       && r.id !== recipe2.id
       && !excludeIds.includes(r.id)
   )
-
   if (pool.length === 0) return null
-
-  const scored = shuffle(pool).map(r => ({
-    recipe: r,
-    // +10 per net-open jar this recipe closes; -3 per fresh jar it would open
-    score: r.closes.filter(j => netOpen.includes(j)).length * 10
-      - r.opens.filter(j => !netOpen.includes(j)).length * 3,
-  }))
-  scored.sort((a, b) => b.score - a.score)
-
-  return scored[0].recipe
+  return shuffle(pool)[0]
 }
 
-/**
- * Plans week 2 by assigning 3 recipes that best close jars left open after week 1.
- * Returns an array of 3 recipes.
- */
-export function planWeekTwo(week1Recipes, recipesData, excludeIds = []) {
-  const week1Ids = week1Recipes.map(r => r.id)
-  const allExclude = [...week1Ids, ...excludeIds]
-
-  // Jar state after week 1.
-  // "Truly closed" = a recipe closes it WITHOUT also opening it (avoids self-cancelling
-  // when a recipe has the same key in both opens and closes).
-  const openedSet = new Set(week1Recipes.flatMap(r => r.opens))
-  const trulyClosed = new Set()
-  for (const r of week1Recipes) {
-    for (const j of r.closes) {
-      if (!r.opens.includes(j)) trulyClosed.add(j)
-    }
-  }
-  const stillOpen = [...openedSet].filter(j => !trulyClosed.has(j))
-
-  const pool = recipesData.filter(
-    r => r.mealType === 'dinner' && !allExclude.includes(r.id)
-  )
-
-  if (pool.length === 0) return []
-
-  // Score: closing still-open week-1 jars is top priority; penalise opening fresh ones.
-  // Shuffle first so ties are random.
-  const scored = shuffle(pool)
-    .map(r => ({
-      recipe: r,
-      score: r.closes.filter(j => stillOpen.includes(j)).length * 10
-        - r.opens.filter(j => !stillOpen.includes(j)).length * 3,
-    }))
-    .sort((a, b) => b.score - a.score)
-
-  const pick1 = scored[0].recipe
-  const remaining = scored.filter(s => s.recipe.id !== pick1.id)
-  const pick2 = remaining[0]?.recipe
-  if (!pick2) return [pick1]
-
-  const pick3 = assignThirdRecipe(
-    pick1,
-    pick2,
-    recipesData,
-    [...allExclude, pick1.id, pick2.id]
-  )
-
-  return [pick1, pick2, pick3].filter(Boolean)
-}
-
-// Known ingredient name aliases — maps variant → canonical display name.
-// Add new entries here whenever the shopping list shows duplicates that should be one item.
 const INGREDIENT_ALIASES = {
   'shallots': 'shallot',
   'tomatoes': 'tomato',
@@ -234,14 +73,6 @@ function normalizeKey(name) {
   return INGREDIENT_ALIASES[lower] ?? lower
 }
 
-/**
- * Generates split shopping lists from an array of recipes.
- * Returns:
- *   sainsburys: Array<{ name: string, count: number }>
- *   ocado:      Array<{ name: string, count: number }>
- * Items with count > 1 mean you need that many across your planned recipes (e.g. aubergine ×2).
- * Both arrays are alphabetically sorted.
- */
 export function generateShoppingList(recipes) {
   const sainsburysMap = new Map()
   const ocadoMap = new Map()
@@ -254,7 +85,6 @@ export function generateShoppingList(recipes) {
       if (existing) {
         map.set(key, { name: existing.name, count: existing.count + 1 })
       } else {
-        // Use the alias canonical name if available, otherwise use as-is
         const canonical = INGREDIENT_ALIASES[name.toLowerCase().trim()] ?? name
         map.set(key, { name: canonical, count: 1 })
       }
@@ -268,27 +98,10 @@ export function generateShoppingList(recipes) {
   }
 }
 
-/**
- * Returns jar/paste summary across all planned recipes.
- * Used to show what needs buying for the fortnight (Ocado).
- */
-export function getJarsSummary(allRecipes) {
-  const opens = [...new Set(allRecipes.flatMap(r => r.opens))]
-  const closes = [...new Set(allRecipes.flatMap(r => r.closes))]
-  const netNew = opens.filter(j => !closes.includes(j))
-  return { opens, closes, netNew }
-}
-
-/**
- * Returns non-dinner recipes that share ingredients with the planned meals.
- * Sorted by ingredient overlap (most overlap first) — surfaces recipes you can
- * make without a special shop.
- */
 export function getOptionalExtras(plannedRecipes, recipesData) {
   const plannedIngredients = new Set(
     plannedRecipes.flatMap(r => r.ingredients.map(i => i.name.toLowerCase()))
   )
-
   return recipesData
     .filter(r => r.mealType !== 'dinner')
     .map(r => ({
@@ -299,15 +112,9 @@ export function getOptionalExtras(plannedRecipes, recipesData) {
     .map(s => s.recipe)
 }
 
-/**
- * Returns up to `count` swap alternatives for a recipe.
- * Uses the same related-scoring logic, excluding already-planned recipes.
- */
 export function getSwapCandidates(recipe, recipesData, excludeIds = [], count = 4) {
   const pool = recipesData.filter(
-    r => r.mealType === 'dinner'
-      && r.id !== recipe.id
-      && !excludeIds.includes(r.id)
+    r => r.mealType === 'dinner' && r.id !== recipe.id && !excludeIds.includes(r.id)
   )
   return shuffle(pool).slice(0, count)
 }
@@ -316,37 +123,67 @@ export function jarKeyToLabel(key) {
   return key.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())
 }
 
-/**
- * Returns all jar/paste keys that appear in at least one dinner recipe,
- * as { key, label } objects sorted alphabetically by label.
- */
+function jarKeyToIngredientName(key) {
+  return key.replace(/-/g, ' ').toLowerCase()
+}
+
+// Known jar/paste ingredient slugs — source of truth for the jar picker list.
+// Add new entries here when adding recipes that use a new paste or sauce.
+const JAR_KEYS = [
+  { key: 'baby-spinach',         match: 'baby spinach' },
+  { key: 'cashew-butter',        match: 'cashew butter' },
+  { key: 'creme-fraiche',        match: 'crème fraîche' },
+  { key: 'chermoula-spice',      match: 'chermoula' },
+  { key: 'double-cream',         match: 'double cream' },
+  { key: 'ginger-garlic-paste',  match: 'ginger & garlic paste' },
+  { key: 'gochujang-paste',      match: 'gochujang' },
+  { key: 'green-thai-paste',     match: 'thai green paste' },
+  { key: 'harissa-paste',        match: 'harissa' },
+  { key: 'hummus',               match: 'hummus' },
+  { key: 'ketjap-manis',         match: 'ketjap manis' },
+  { key: 'korma-paste',          match: 'korma paste' },
+  { key: 'mango-chutney',        match: 'mango chutney' },
+  { key: 'miso-paste',           match: 'miso' },
+  { key: 'red-onion-marmalade',  match: 'red onion marmalade' },
+  { key: 'red-thai-paste',       match: 'red thai paste' },
+  { key: 'rogan-josh-paste',     match: 'rogan josh' },
+  { key: 'rose-harissa-paste',   match: 'rose harissa' },
+  { key: 'sambal-paste',         match: 'sambal' },
+  { key: 'smokey-paste',         match: 'smokey base paste' },
+  { key: 'sun-dried-tomato-paste', match: 'sun-dried tomato paste' },
+  { key: 'tamarind-paste',       match: 'tamarind' },
+  { key: 'tomato-sauce-jar',     match: 'tomato sauce' },
+  { key: 'tikka-paste',          match: 'tikka' },
+  { key: 'wild-mushroom-paste',  match: 'wild mushroom' },
+  { key: 'yellow-thai-paste',    match: 'yellow thai paste' },
+  { key: 'yoghurt',              match: 'yoghurt' },
+  { key: 'zhoug-paste',          match: 'zhoug' },
+]
+
+function recipeUsesJar(recipe, jarKey) {
+  const entry = JAR_KEYS.find(j => j.key === jarKey)
+  const matchStr = entry ? entry.match : jarKeyToIngredientName(jarKey)
+  return recipe.ingredients.some(i => i.name.toLowerCase().includes(matchStr))
+}
+
 export function getJarList(recipesData) {
-  const jarSet = new Set(
-    recipesData
-      .filter(r => r.mealType === 'dinner')
-      .flatMap(r => [...r.opens, ...r.closes])
-  )
-  return [...jarSet]
-    .map(key => ({ key, label: jarKeyToLabel(key) }))
+  const dinners = recipesData.filter(r => r.mealType === 'dinner')
+  return JAR_KEYS
+    .filter(({ key }) => dinners.some(r => recipeUsesJar(r, key)))
+    .map(({ key }) => ({ key, label: jarKeyToLabel(key) }))
     .sort((a, b) => a.label.localeCompare(b.label))
 }
 
-/**
- * Returns dinner recipes that open or close the given jar key, shuffled.
- */
 export function getRecipesForJar(jarKey, recipesData, excludeIds = []) {
   return shuffle(
     recipesData.filter(
       r => r.mealType === 'dinner'
         && !excludeIds.includes(r.id)
-        && (r.opens.includes(jarKey) || r.closes.includes(jarKey))
+        && recipeUsesJar(r, jarKey)
     )
   )
 }
 
-/**
- * Returns dinner recipes tagged 'quick', excluding recent ones, shuffled.
- */
 export function getQuickRecipes(recipesData, excludeIds = []) {
   return shuffle(
     recipesData.filter(

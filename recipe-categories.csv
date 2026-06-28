@@ -1,0 +1,85 @@
+id,name,cuisine,mealType,quick,involved,comfort_food,notes
+35,Katsu Curry,Asian,dinner,,yes,,breading + curry sauce
+39,Stir Fry with Peanut Sauce,Asian,dinner,yes,,,
+47,Gochujang Glazed Paneer,Asian,dinner,yes,,,
+78,Katsu Curry with Quorn Pieces,Asian,dinner,,yes,yes,
+83,Sticky Ginger-Lemongrass Mushroom Rice Bowl,Asian,dinner,yes,,,
+16,Spicy Zhoug Sea Bream,Fish,dinner,yes,,,
+17,Miso-Glazed Salmon,Fish,dinner,yes,,,
+18,Confit Garlic Lemon & Rosemary Basa,Fish,dinner,,,yes,gentle oven bake
+19,Honey & Ginger Glazed Basa,Fish,dinner,yes,,,
+20,Salmon Gremolata Butter,Fish,dinner,yes,,yes,
+21,Sea Bream in Chive & Garlic Butter,Fish,dinner,yes,,,
+22,Italian Sea Bass Tray Bake,Fish,dinner,,,,multiple components
+23,Salmon & Herbed Smashed Potatoes,Fish,dinner,,,yes,
+24,Lemon Sea Bream with Pesto Drizzle,Fish,dinner,yes,,,
+25,Baked Salmon & Leek Parcel,Fish,dinner,,yes,,parcel method
+26,GF Salmon Pasta,Fish,dinner,yes,,yes,
+27,GF Fish & Chips,Fish,dinner,,,yes,battering involved
+28,Honey & Orange Sea Bass with Lentils,Fish,dinner,yes,,,
+6,Spicy Paneer Tikka Curry,Indian,dinner,yes,,yes,
+7,Paneer Butter Masala,Indian,dinner,yes,,yes,
+8,Tandoori Paneer Rice Bowl,Indian,dinner,yes,,yes,
+9,Ginger Paneer & Caramelised Onion Curry,Indian,dinner,yes,,yes,
+10,Aubergine & Spinach Curry,Indian,dinner,yes,,,
+11,One Pan Smokey Chickpea Curry,Indian,dinner,yes,,,
+12,Creamy Tomato & Chickpea Curry,Indian,dinner,yes,,,
+13,Masala Fish,Indian,dinner,,yes,,batter-making
+14,Dum Aloo,Indian,dinner,,yes,yes,multi-step potato dish
+15,Palak Paneer,Indian,dinner,,,yes,middle of the road for effort
+84,Coconut Red Lentil Dahl,Indian,dinner,yes,,yes,
+38,Aubergine Pizzas,Italian,dinner,yes,,,
+41,Speciality Mushroom Risotto,Italian,dinner,,yes,yes,
+43,Leek Mushroom & Blue Cheese Risotto,Italian,dinner,,yes,yes,
+44,Oven-Baked Pesto Risotto,Italian,dinner,,yes,yes,
+45,Mediterranean Risotto,Italian,dinner,,yes,yes,
+49,Mozzarella Topped Pesto Gnocchi,Italian,dinner,yes,,yes,
+50,Aubergine Parmigiana Traybake,Italian,dinner,,yes,,
+51,Bolognaise,Italian,dinner,,yes,yes,
+52,Pesto Pasta,Italian,dinner,yes,,,
+53,Mushroom Pasta,Italian,dinner,yes,,yes,
+77,Broccoli Mac & Cheese,Italian,dinner,,yes,yes,
+37,Malaysian Fish Curry (Kari Ikan),Malaysian,dinner,,yes,,spice paste from scratch
+34,Spicy Harissa Aubergine Pie,Mediterranean,dinner,,yes,,
+36,Quinoa Salad with Grilled Halloumi,Mediterranean,dinner,yes,,,
+40,Roast Veg with Halloumi,Mediterranean,dinner,yes,,,0 prep
+42,Chermoula Chickpea & Turmeric Rice Bowl,Mediterranean,dinner,yes,,,
+46,West African Halloumi in Spiced Tomato Sauce,Mediterranean,dinner,yes,,,
+62,Caramelised Onion & Feta Galette,Mediterranean,dinner,yes,,yes,pastry
+65,Leek Brie Mushroom & Olive Puff Tart,Mediterranean,dinner,yes,,yes,pastry
+66,Red Onion Walnut & Blue Cheese Tart,Mediterranean,dinner,yes,,yes,pastry
+67,Spring Veggie Pizza Tart,Mediterranean,dinner,yes,,,pastry
+68,Spring Salad Tart,Mediterranean,dinner,yes,,,pastry
+69,Leek Brie & Potato Tart,Mediterranean,dinner,yes,,yes,pastry
+79,Pesto Salmon Traybake,Mediterranean,dinner,yes,,yes,dump-and-go traybake
+29,Mexican Black Bean Bowl,Mexican,dinner,yes,,yes,
+30,Kidney Bean Jacket Potato,Mexican,dinner,,,yes,needs oven time but hands-off
+31,Cajun Halloumi & Black Bean Burrito Bowl,Mexican,dinner,yes,,yes,
+32,Sweet Potato Jackets with Guacamole & Kidney Beans,Mexican,dinner,,yes,yes,oven jacket time
+33,Mexican-Style Stuffed Peppers,Mexican,dinner,yes,,,
+60,Vegetarian Enchiladas,Mexican,dinner,,yes,yes,assembling + oven bake
+71,Grilled Courgette Bean & Cheese Quesadilla,Mexican,dinner,yes,,,
+72,Refried Bean Quesadillas,Mexican,dinner,yes,,yes,
+73,Veggie Fajita Nachos,Mexican,dinner,yes,,,
+74,Mexican Bean Burgers,Mexican,dinner,,yes,,forming patties + assembly
+75,Spicy Mexican Potato Wedges,Mexican,dinner,,yes,yes,oven wedges
+1,Thai Yellow Curry Bowl,Thai,dinner,yes,,,
+2,Yellow Thai Basa Curry,Thai,dinner,yes,,yes,
+3,Ginger & Peanut Sweet Potato Curry,Thai,dinner,yes,,yes,
+4,Green Thai Sweet Potato Curry,Thai,dinner,yes,,,
+5,Super Green Thai Chickpea Curry,Thai,dinner,yes,,,
+48,Cheddar & Wholegrain Mustard Gnocchi Bake,Veggie,dinner,,yes,yes,
+54,Baked Eggs with Potatoes Mushrooms & Cheese,Veggie,dinner,,yes,yes,oven time
+55,Oven-Baked Egg & Chips,Veggie,dinner,,yes,yes,oven time
+56,Cheese Cumin & Onion Seed Cornbread Muffins,Veggie,bake,,yes,,
+57,Strawberry Almond & Polenta Skillet Cake,Veggie,bake,,yes,,
+58,Kanelbullar (Cinnamon Balls),Veggie,bake,,yes,,
+59,Dark Chocolate Orange Creams,Veggie,dessert,yes,,,no-cook
+61,Spinach Sweet Potato & Feta Sausage Rolls,Veggie,dinner,,yes,yes,pastry
+63,Raspberry & Lemon Mess Tart,Veggie,dessert,yes,,yes,pastry
+64,Mini Bacon & Egg Pies,Veggie,dinner,yes,,,pastry
+70,Three Cheese Caramelised Onion & Potato Pie,Veggie,dinner,,yes,yes,pastry
+76,Gluten-free Lemon Drizzle Cake,Veggie,bake,,yes,,
+80,White Chocolate Cheesecake,Veggie,dessert,,yes,,
+81,Cowboy Breakfast Bowl,Veggie,dinner,yes,,yes,
+82,Pumpkin Seed Flapjack,Veggie,bake,,yes,,

@@ -9,14 +9,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "yellow-thai-paste",
-      "fresh-coriander"
-    ],
-    "closes": [
-      "yellow-thai-paste",
-      "fresh-coriander"
-    ],
     "ingredients": [
       {
         "name": "firm tofu",
@@ -69,14 +61,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "yellow-thai-paste",
-      "baby-spinach"
-    ],
-    "closes": [
-      "yellow-thai-paste",
-      "baby-spinach"
-    ],
     "ingredients": [
       {
         "name": "basa fillets",
@@ -118,16 +102,6 @@
     "glutenNote": null,
     "favourite": true,
     "source": "green-chef",
-    "opens": [
-      "red-thai-paste",
-      "sweet-potato",
-      "fresh-coriander"
-    ],
-    "closes": [
-      "red-thai-paste",
-      "sweet-potato",
-      "fresh-coriander"
-    ],
     "ingredients": [
       {
         "name": "sweet potato",
@@ -181,16 +155,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "green-thai-paste",
-      "sweet-potato",
-      "baby-spinach"
-    ],
-    "closes": [
-      "green-thai-paste",
-      "sweet-potato",
-      "baby-spinach"
-    ],
     "ingredients": [
       {
         "name": "diced sweet potato",
@@ -235,16 +199,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "green-thai-paste",
-      "fresh-coriander",
-      "baby-spinach"
-    ],
-    "closes": [
-      "green-thai-paste",
-      "fresh-coriander",
-      "baby-spinach"
-    ],
     "ingredients": [
       {
         "name": "garlic",
@@ -297,17 +251,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "tikka-paste",
-      "north-indian-spice",
-      "creme-fraiche",
-      "baby-spinach"
-    ],
-    "closes": [
-      "tikka-paste",
-      "creme-fraiche",
-      "baby-spinach"
-    ],
     "ingredients": [
       {
         "name": "paneer",
@@ -357,17 +300,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "korma-paste",
-      "creme-fraiche",
-      "fresh-coriander"
-    ],
-    "closes": [
-      "korma-paste",
-      "north-indian-spice",
-      "creme-fraiche",
-      "fresh-coriander"
-    ],
     "ingredients": [
       {
         "name": "paneer",
@@ -421,13 +353,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "tandoori-spice",
-      "hummus"
-    ],
-    "closes": [
-      "hummus"
-    ],
     "ingredients": [
       {
         "name": "paneer",
@@ -477,16 +402,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "rogan-josh-paste",
-      "creme-fraiche",
-      "baby-spinach"
-    ],
-    "closes": [
-      "rogan-josh-paste",
-      "creme-fraiche",
-      "baby-spinach"
-    ],
     "ingredients": [
       {
         "name": "paneer",
@@ -540,16 +455,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "rogan-josh-paste",
-      "fresh-coriander",
-      "baby-spinach"
-    ],
-    "closes": [
-      "rogan-josh-paste",
-      "fresh-coriander",
-      "baby-spinach"
-    ],
     "ingredients": [
       {
         "name": "aubergine",
@@ -602,16 +507,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "smokey-paste",
-      "yoghurt",
-      "baby-spinach"
-    ],
-    "closes": [
-      "smokey-paste",
-      "yoghurt",
-      "baby-spinach"
-    ],
     "ingredients": [
       {
         "name": "onion",
@@ -656,18 +551,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "smokey-paste",
-      "yoghurt",
-      "fresh-coriander",
-      "baby-spinach"
-    ],
-    "closes": [
-      "smokey-paste",
-      "yoghurt",
-      "fresh-coriander",
-      "baby-spinach"
-    ],
     "ingredients": [
       {
         "name": "garlic",
@@ -712,8 +595,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "cod fillets",
@@ -770,16 +651,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [
-      "ginger-garlic-paste",
-      "yoghurt",
-      "fresh-coriander"
-    ],
-    "closes": [
-      "ginger-garlic-paste",
-      "yoghurt",
-      "fresh-coriander"
-    ],
     "ingredients": [
       {
         "name": "baby potatoes",
@@ -837,16 +708,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "https://www.cookwithmanali.com/palak-paneer/",
-    "opens": [
-      "ginger-garlic-paste",
-      "double-cream",
-      "baby-spinach"
-    ],
-    "closes": [
-      "ginger-garlic-paste",
-      "double-cream",
-      "baby-spinach"
-    ],
     "ingredients": [
       {
         "name": "paneer",
@@ -899,15 +760,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "zhoug-paste",
-      "chermoula-spice",
-      "fresh-coriander"
-    ],
-    "closes": [
-      "zhoug-paste",
-      "fresh-coriander"
-    ],
     "ingredients": [
       {
         "name": "sea bream fillets",
@@ -956,12 +808,6 @@
     "glutenNote": "GF miso only — check label. Use tamari not soy sauce.",
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "miso-paste"
-    ],
-    "closes": [
-      "miso-paste"
-    ],
     "ingredients": [
       {
         "name": "salmon fillets",
@@ -1006,8 +852,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "basa fillets",
@@ -1052,12 +896,6 @@
     "glutenNote": "Check ketjap manis label — some contain wheat. Swap for tamari + splash of molasses if needed.",
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "ketjap-manis"
-    ],
-    "closes": [
-      "ketjap-manis"
-    ],
     "ingredients": [
       {
         "name": "basa fillets",
@@ -1106,8 +944,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "salmon fillets",
@@ -1161,12 +997,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "creme-fraiche"
-    ],
-    "closes": [
-      "creme-fraiche"
-    ],
     "ingredients": [
       {
         "name": "sea bream fillets",
@@ -1215,12 +1045,6 @@
     "glutenNote": "Check pesto and sun-dried tomato paste labels — both can contain gluten.",
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "sun-dried-tomato-paste"
-    ],
-    "closes": [
-      "sun-dried-tomato-paste"
-    ],
     "ingredients": [
       {
         "name": "sea bass fillets",
@@ -1275,12 +1099,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "creme-fraiche"
-    ],
-    "closes": [
-      "creme-fraiche"
-    ],
     "ingredients": [
       {
         "name": "salmon fillets",
@@ -1321,8 +1139,6 @@
     "glutenNote": "Check pesto label — not all are GF.",
     "favourite": false,
     "source": "green-chef",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "sea bream fillets",
@@ -1367,12 +1183,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [
-      "baby-spinach"
-    ],
-    "closes": [
-      "baby-spinach"
-    ],
     "ingredients": [
       {
         "name": "salmon fillets",
@@ -1413,12 +1223,6 @@
     "glutenNote": "Use GF pasta — verify brand.",
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [
-      "baby-spinach"
-    ],
-    "closes": [
-      "baby-spinach"
-    ],
     "ingredients": [
       {
         "name": "smoked salmon",
@@ -1468,8 +1272,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "cod fillets",
@@ -1510,8 +1312,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "sea bass fillets",
@@ -1548,10 +1348,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "mexican-spice"
-    ],
-    "closes": [],
     "ingredients": [
       {
         "name": "bell pepper",
@@ -1593,10 +1389,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [],
-    "closes": [
-      "mexican-spice"
-    ],
     "ingredients": [
       {
         "name": "baking potatoes (x2)",
@@ -1641,10 +1433,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "cajun-spice"
-    ],
-    "closes": [],
     "ingredients": [
       {
         "name": "halloumi",
@@ -1690,14 +1478,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [
-      "sweet-potato",
-      "fresh-coriander"
-    ],
-    "closes": [
-      "sweet-potato",
-      "fresh-coriander"
-    ],
     "ingredients": [
       {
         "name": "sweet potatoes (x2)",
@@ -1743,12 +1523,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [
-      "fresh-coriander"
-    ],
-    "closes": [
-      "fresh-coriander"
-    ],
     "ingredients": [
       {
         "name": "bell pepper",
@@ -1781,14 +1555,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [
-      "rose-harissa-paste",
-      "sweet-potato"
-    ],
-    "closes": [
-      "rose-harissa-paste",
-      "sweet-potato"
-    ],
     "ingredients": [
       {
         "name": "aubergine",
@@ -1841,8 +1607,6 @@
     "glutenNote": "Use GF breadcrumbs — verify brand.",
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "Quorn fillets",
@@ -1899,12 +1663,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [
-      "roasted-peppers-jar"
-    ],
-    "closes": [
-      "roasted-peppers-jar"
-    ],
     "ingredients": [
       {
         "name": "halloumi",
@@ -1941,14 +1699,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [
-      "tamarind-paste",
-      "fresh-coriander"
-    ],
-    "closes": [
-      "tamarind-paste",
-      "fresh-coriander"
-    ],
     "ingredients": [
       {
         "name": "white fish fillets",
@@ -2005,8 +1755,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "custom",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "aubergine",
@@ -2035,8 +1783,6 @@
     "glutenNote": "Use tamari — already a staple.",
     "favourite": false,
     "source": "custom",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "stir fry veg pack",
@@ -2069,8 +1815,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "custom",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "halloumi",
@@ -2103,12 +1847,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "wild-mushroom-paste"
-    ],
-    "closes": [
-      "wild-mushroom-paste"
-    ],
     "ingredients": [
       {
         "name": "onion",
@@ -2158,19 +1896,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "harissa-paste",
-      "cashew-butter",
-      "zhoug-paste",
-      "hummus"
-    ],
-    "closes": [
-      "harissa-paste",
-      "cashew-butter",
-      "chermoula-spice",
-      "zhoug-paste",
-      "hummus"
-    ],
     "ingredients": [
       {
         "name": "courgette",
@@ -2227,12 +1952,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "wild-mushroom-paste"
-    ],
-    "closes": [
-      "wild-mushroom-paste"
-    ],
     "ingredients": [
       {
         "name": "onion",
@@ -2282,8 +2001,6 @@
     "glutenNote": "Check pesto label — not all are GF.",
     "favourite": false,
     "source": "green-chef",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "onion",
@@ -2333,8 +2050,6 @@
     "glutenNote": "Check pesto label — not all are GF.",
     "favourite": false,
     "source": "green-chef",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "onion",
@@ -2380,8 +2095,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "halloumi",
@@ -2418,14 +2131,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "gochujang-paste",
-      "sambal-paste"
-    ],
-    "closes": [
-      "gochujang-paste",
-      "sambal-paste"
-    ],
     "ingredients": [
       {
         "name": "paneer",
@@ -2478,12 +2183,6 @@
     "glutenNote": "GF gnocchi only — check label every time.",
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "creme-fraiche"
-    ],
-    "closes": [
-      "creme-fraiche"
-    ],
     "ingredients": [
       {
         "name": "GF gnocchi ⚠️ check label",
@@ -2529,14 +2228,6 @@
     "glutenNote": "GF gnocchi only. Check pesto label — not all are GF.",
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "sun-dried-tomato-paste",
-      "creme-fraiche"
-    ],
-    "closes": [
-      "sun-dried-tomato-paste",
-      "creme-fraiche"
-    ],
     "ingredients": [
       {
         "name": "GF gnocchi ⚠️ check label",
@@ -2586,12 +2277,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "tomato-sauce-jar"
-    ],
-    "closes": [
-      "tomato-sauce-jar"
-    ],
     "ingredients": [
       {
         "name": "aubergine",
@@ -2636,12 +2321,6 @@
     "glutenNote": "Use GF spaghetti — verify brand.",
     "favourite": false,
     "source": "custom",
-    "opens": [
-      "tomato-sauce-jar"
-    ],
-    "closes": [
-      "tomato-sauce-jar"
-    ],
     "ingredients": [
       {
         "name": "Quorn mince",
@@ -2687,8 +2366,6 @@
     "glutenNote": "GF pasta. Check pesto label.",
     "favourite": false,
     "source": "custom",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "GF pasta",
@@ -2729,12 +2406,6 @@
     "glutenNote": "GF tagliatelle — verify brand.",
     "favourite": false,
     "source": "custom",
-    "opens": [
-      "double-cream"
-    ],
-    "closes": [
-      "double-cream"
-    ],
     "ingredients": [
       {
         "name": "GF tagliatelle",
@@ -2768,8 +2439,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "baking potato",
@@ -2811,8 +2480,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "baking potato",
@@ -2842,8 +2509,6 @@
     "glutenNote": "Verify baking powder is GF.",
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "eggs",
@@ -2876,12 +2541,6 @@
     "glutenNote": "Naturally GF.",
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [
-      "vanilla-bean-paste"
-    ],
-    "closes": [
-      "vanilla-bean-paste"
-    ],
     "ingredients": [
       {
         "name": "unsalted butter",
@@ -2926,12 +2585,6 @@
     "glutenNote": "Naturally GF.",
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [
-      "vanilla-bean-paste"
-    ],
-    "closes": [
-      "vanilla-bean-paste"
-    ],
     "ingredients": [
       {
         "name": "egg whites",
@@ -2964,8 +2617,6 @@
     "glutenNote": "Check dark chocolate label.",
     "favourite": false,
     "source": "bbc-good-food",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "dark chocolate",
@@ -2998,8 +2649,6 @@
     "glutenNote": "GF tortillas only.",
     "favourite": false,
     "source": "https://www.bbcgoodfood.com/recipes/bean-enchiladas",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "onion",
@@ -3045,12 +2694,6 @@
     "glutenNote": "Jus-Rol GF pastry roll only.",
     "favourite": false,
     "source": "https://www.jusrol.co.uk/pastry-recipes/spinach-sweet-potato-feta-sausage-rolls/",
-    "opens": [
-      "baby-spinach"
-    ],
-    "closes": [
-      "baby-spinach"
-    ],
     "ingredients": [
       {
         "name": "GF pastry roll ⚠️ Jus-Rol GF",
@@ -3100,8 +2743,6 @@
     "glutenNote": "Jus-Rol GF pastry roll only.",
     "favourite": false,
     "source": "https://www.jusrol.co.uk/pastry-recipes/gluten-free-caramelised-onion-feta-galette/",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "GF pastry roll ⚠️ Jus-Rol GF",
@@ -3143,8 +2784,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "https://www.jusrol.co.uk/pastry-recipes/raspberry-and-lemon-mess-tart/",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "GF shortcrust pastry block",
@@ -3182,8 +2821,6 @@
     "glutenNote": "Check mustard label for GF.",
     "favourite": false,
     "source": "https://www.jusrol.co.uk/pastry-recipes/mini-bacon-egg-pies/",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "GF pastry roll ⚠️ Jus-Rol GF",
@@ -3220,8 +2857,6 @@
     "glutenNote": "Jus-Rol GF pastry roll only.",
     "favourite": false,
     "source": "https://www.jusrol.co.uk/pastry-recipes/leek-brie-mushroom-olive-puff-tart/",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "GF pastry roll ⚠️ Jus-Rol GF",
@@ -3263,12 +2898,6 @@
     "glutenNote": "Jus-Rol GF pastry roll only.",
     "favourite": false,
     "source": "https://www.jusrol.co.uk/pastry-recipes/red-onion-walnut-blue-cheese-tart/",
-    "opens": [
-      "red-onion-marmalade"
-    ],
-    "closes": [
-      "red-onion-marmalade"
-    ],
     "ingredients": [
       {
         "name": "GF pastry roll ⚠️ Jus-Rol GF",
@@ -3306,8 +2935,6 @@
     "glutenNote": "Jus-Rol GF pastry roll only.",
     "favourite": false,
     "source": "https://www.jusrol.co.uk/pastry-recipes/spring-veggie-pizza/",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "GF pastry roll ⚠️ Jus-Rol GF",
@@ -3360,8 +2987,6 @@
     "glutenNote": "Jus-Rol GF pastry roll only.",
     "favourite": false,
     "source": "https://www.jusrol.co.uk/pastry-recipes/spring-salad-pizza/",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "GF pastry roll ⚠️ Jus-Rol GF",
@@ -3402,8 +3027,6 @@
     "glutenNote": "Jus-Rol GF pastry roll only.",
     "favourite": false,
     "source": "https://www.jusrol.co.uk/pastry-recipes/leek-brie-and-potato-tart/",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "GF pastry roll ⚠️ Jus-Rol GF",
@@ -3445,12 +3068,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "https://www.jusrol.co.uk/pastry-recipes/three-cheese-caramelised-onion-potato-pie/",
-    "opens": [
-      "double-cream"
-    ],
-    "closes": [
-      "double-cream"
-    ],
     "ingredients": [
       {
         "name": "onion",
@@ -3500,8 +3117,6 @@
     "glutenNote": "GF tortilla wraps only.",
     "favourite": false,
     "source": "https://www.bbcgoodfood.com/recipes/grilled-courgette-bean-cheese-quesadilla",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "onion",
@@ -3546,12 +3161,6 @@
     "glutenNote": "GF tortilla wraps only.",
     "favourite": false,
     "source": "https://www.bbcgoodfood.com/recipes/refried-bean-quesadillas",
-    "opens": [
-      "fresh-coriander"
-    ],
-    "closes": [
-      "fresh-coriander"
-    ],
     "ingredients": [
       {
         "name": "onion",
@@ -3597,12 +3206,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "https://groceries.morrisons.com/recipes/veggie-fajita-loaded-nachos/3RtyjdxbySA9qrS5GhpNRP",
-    "opens": [
-      "fresh-coriander"
-    ],
-    "closes": [
-      "fresh-coriander"
-    ],
     "ingredients": [
       {
         "name": "red onion",
@@ -3659,12 +3262,6 @@
     "glutenNote": "Genius GF rolls — check label.",
     "favourite": false,
     "source": "https://groceries.morrisons.com/recipes/mexican-bean-burgers/50447",
-    "opens": [
-      "fresh-coriander"
-    ],
-    "closes": [
-      "fresh-coriander"
-    ],
     "ingredients": [
       {
         "name": "Genius GF bread rolls",
@@ -3721,12 +3318,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "https://groceries.morrisons.com/recipes/spicy-mexican-potato-wedges/33867",
-    "opens": [
-      "fresh-coriander"
-    ],
-    "closes": [
-      "fresh-coriander"
-    ],
     "ingredients": [
       {
         "name": "potatoes",
@@ -3760,8 +3351,6 @@
     "glutenNote": "Naturally GF — mashed potato base.",
     "favourite": false,
     "source": "https://groceries.morrisons.com/recipes/gluten-free-lemon-drizzle-cake/94728",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "mashed potato",
@@ -3794,8 +3383,6 @@
     "glutenNote": "GF macaroni only. Use GF breadcrumbs or omit.",
     "favourite": false,
     "source": "https://realfood.tesco.com/recipes/broccoli-mac-and-cheese.html",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "GF macaroni",
@@ -3829,12 +3416,6 @@
     "glutenNote": "Use tamari not soy sauce.",
     "favourite": false,
     "source": "https://groceries.morrisons.com/recipes/katsu-curry-with-quorn-pieces/82306",
-    "opens": [
-      "fresh-coriander"
-    ],
-    "closes": [
-      "fresh-coriander"
-    ],
     "ingredients": [
       {
         "name": "Quorn pieces",
@@ -3892,8 +3473,6 @@
     "glutenNote": "Check pesto label — not all are GF.",
     "favourite": false,
     "source": "https://groceries.morrisons.com/recipes/pesto-salmon-traybake/3ijmb3eqhsDitbiuu0wPdq",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "salmon fillets",
@@ -3939,8 +3518,6 @@
     "glutenNote": "GF digestive biscuits — check label.",
     "favourite": false,
     "source": "https://groceries.morrisons.com/recipes/white-chocolate-cheesecake/43528",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "GF digestive biscuits ⚠️ check label",
@@ -3985,12 +3562,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "https://groceries.morrisons.com/recipes/cowboy-breakfast-bowl/89051",
-    "opens": [
-      "baby-spinach"
-    ],
-    "closes": [
-      "baby-spinach"
-    ],
     "ingredients": [
       {
         "name": "GF vegetarian sausages",
@@ -4032,8 +3603,6 @@
     "glutenNote": "GF oats only — check label.",
     "favourite": false,
     "source": "https://groceries.morrisons.com/recipes/pumpkin-seed-flapjack/18xgOf75F2kIwtRId2O4Ed",
-    "opens": [],
-    "closes": [],
     "ingredients": [
       {
         "name": "GF oats ⚠️ check label",
@@ -4070,14 +3639,6 @@
     "glutenNote": "Check ketjap manis label for GF.",
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "ketjap-manis",
-      "fresh-coriander"
-    ],
-    "closes": [
-      "ketjap-manis",
-      "fresh-coriander"
-    ],
     "ingredients": [
       {
         "name": "aubergine",
@@ -4134,12 +3695,6 @@
     "glutenNote": null,
     "favourite": false,
     "source": "green-chef",
-    "opens": [
-      "mango-chutney"
-    ],
-    "closes": [
-      "mango-chutney"
-    ],
     "ingredients": [
       {
         "name": "green pepper",

@@ -1,6 +1,7 @@
 import { useState, useCallback } from 'react'
 import recipes from './data/recipes.json'
 import HomeScreen from './components/HomeScreen.jsx'
+import QuickMeals from './components/QuickMeals.jsx'
 import RecipePicker from './components/RecipePicker.jsx'
 import RelatedPicker from './components/RelatedPicker.jsx'
 import JarPicker from './components/JarPicker.jsx'
@@ -10,7 +11,6 @@ import PlanSummary from './components/PlanSummary.jsx'
 import IngredientSearch from './components/IngredientSearch.jsx'
 import {
   getRandomCandidates,
-  getQuickRecipes,
   getJarList,
   getRecipesForJar,
   getRelatedCandidates,
@@ -21,6 +21,7 @@ import {
 
 const STEP = {
   HOME:         'home',
+  QUICK:        'quick',
   JAR_PICK:     'jarPick',
   PICK_1:       'pick1',
   PICK_2:       'pick2',
@@ -104,11 +105,7 @@ export default function App() {
   // ── Entry modes ───────────────────────────────────────────────────────────
 
   function handleQuick() {
-    setPick1Candidates(getQuickRecipes(recipes, recentIds))
-    setPick1Label('Quick meals')
-    setPick1Title('Fast and easy — pick one')
-    setPick1Hint("These are all quick to pull together. Pick one to build your week around.")
-    setStep(STEP.PICK_1)
+    setStep(STEP.QUICK)
   }
 
   function handleBrowse() {
@@ -223,6 +220,10 @@ export default function App() {
             onJar={handleJar}
             onChoose={handleChoose}
           />
+        )}
+
+        {step === STEP.QUICK && (
+          <QuickMeals onBack={() => setStep(STEP.HOME)} />
         )}
 
         {step === STEP.JAR_PICK && (
